@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Metamask</title>
+</head>
+
+<body>
+    <div class="center">
+        <h1>Web3 ile Ethereum Transfer İşlemleri</h1>
+        <button class="btn" onclick="connectEth()">Metamask Cüzdana Bağlan</button>
+        <br>
+        <p style="color:rgb(47, 5, 232);font-size:20px;" id="p">Henüz Bağlantı Kurulamadı</p>
+        <button class="btn" onclick="checkEthBalance()">Hesaptaki Tutar Bilgisi</button>
+        <br>
+        <p style="color:rgb(47, 5, 232);font-size:35px;" id="p2"></p>
+        <br>
+        <div id="mydiv">
+            <label for="fname">Wallet Address:</label>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <br>
+            <label for="fname2">Amount (ETH)</label>
+            <input type="text" id="fname2" name="fname2">
+            
+            <br>
+            <br>
+            <button class="btn" onclick="sendEther()">Ether gönder</button>
+
+        </div>
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

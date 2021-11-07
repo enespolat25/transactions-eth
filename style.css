@@ -1,0 +1,40 @@
+.center {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    border: 3px solid green;
+    padding: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+  }
+  h1{
+      font-size: 45px;
+      
+      
+  }
+
+  #p2,p{
+    word-break: break-all;
+  }
+
+  .btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .btn{
+      padding: 10px 20px 10px 20px;
+      color: #c1e2d5;
+    background-color: #381de6;
+  }
+
+  #mydiv{
+    background-color: #6998c2;
+    padding: 18px 0 18px 0;
+    border-radius: 15px;
+    font-size: 23px;
+  }
+
+  input {
+    width: 370px;
+    height: 30px;
+    font-size:15px
+  }
